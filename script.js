@@ -11,3 +11,8 @@ var homme = {
     }
 };
 homme.getName();
+
+var verification = {
+    paysautoriser: ["France", "Belgique", "Espagne"],
+    paiementautoriser: ["visa", "mastercard", "CB", "Paypal", "Cheque"],
+    agemin: 18,
