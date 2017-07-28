@@ -23,3 +23,10 @@ var verification = {
                 alert("Vous n'êtes pas autoriser a entrez!");
             }
         },
+        VeriPays: function(personne) {
+            if (this.paysautoriser.includes(personne.pays)) {
+                alert("Votre pays est autoriser!");
+            } else {
+                alert("Votre pays n'est pas autoriser!");
+            }
+        },
