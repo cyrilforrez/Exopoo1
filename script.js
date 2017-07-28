@@ -13,6 +13,13 @@ var homme = {
 homme.getName();
 
 var verification = {
-    paysautoriser: ["France", "Belgique", "Espagne"],
-    paiementautoriser: ["visa", "mastercard", "CB", "Paypal", "Cheque"],
-    agemin: 18,
+        paysautoriser: ["France", "Belgique", "Espagne"],
+        paiementautoriser: ["visa", "mastercard", "CB", "Paypal", "Cheque"],
+        agemin: 18,
+        VeriAge: function(personne) {
+            if (personne.age >= (this.agemin)) {
+                alert("Vous pouvez Entrez!");
+            } else {
+                alert("Vous n'êtes pas autoriser a entrez!");
+            }
+        },
